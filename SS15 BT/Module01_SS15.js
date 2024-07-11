@@ -375,6 +375,23 @@
 // console.log(sum10());
 
 // CHUA LOAI DUOC CAC PHAN TU TRUNG NHAU
+// CACH ANH QUANG SUA
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let result = [];
+// function sum10() {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length - 1; j++) {
+//       let temp = [];
+//       if (arr[i] + arr[j] == 10) {
+//         temp.push(arr[i], arr[j]);
+//         result.push(temp.join());
+//       }
+//     }
+//   }
+//   return result;
+// }
+// console.log(sum10(arr));
+
 // ===============================================================
 
 // Bài 4: Cho người dùng nhập vào chuỗi kí tự. Viết hàm kiểm tra xem tần suất xuất hiện của mỗi ký tự và in ra chúng
